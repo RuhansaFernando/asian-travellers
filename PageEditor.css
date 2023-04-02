@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+* {
+  font-family: Alkatra;
+}
+
+.main{
+  text-align: center;
+}
+
+.header{
+  background-color: #004d80;
+}
+
+.sub2{
+  background-color: #004d80;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}

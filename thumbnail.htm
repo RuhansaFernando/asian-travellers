@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="thumbnailstyle.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Thumbnail Gallery</title>
+</head>
+<body>
+    <header>
+    <div class="main">
+          <div class="logo">
+            <img src="logo.png" alt="">
+          </div>
+        <div>
+          <a href="index.html">Home</a>
+          <a href="commentform.html">Comments</a>
+          <a href="#">Shop</a>
+          <a href="Quiz.html">Quiz</a>
+          <a href="sitemap.htm">Site Map</a>
+          <a href="aboutUs.html">About us</a>
+          <a class="active" href="thumbnail.htm">Gallery</a>
+        </div>
+    </div>
+    </header>
+<div class="controls">
+<select onchange="pagecolor(this.value)">
+<option value="">...Default...</option>
+<option value="black">Black</option>
+<option value="lightblue">lightblue</option>
+<option value="Pink">Pink</option>
+</select>
+<input type="color" id="colorPicker" >
+
+<button class="increase" onclick="increaseFont()">A+</button>
+<button class="decrease" onclick="decreaseFont()">A-</button>
+</div>
+
+<div class="heading">
+    <h2>Most Travelled Cities 2022</h2>
+</div>
+
+<div class="thumbnails" id="thumbnails">
+    <img id="1" class="img active" src="srilanka2.jpg" alt="" onmouseover="description_colombo()">
+
+    <img id="2" class="thumbnails" src="dubai.jpeg" alt=""   onmouseenter="description_dubai()">
+    <img id="3" class="thumbnails"  src="jakarta.jpeg" alt=""    onmouseenter="description_jakarta()"  >
+
+</div>
+<div class="secondary">
+<img src="srilanka2.jpg" id="main" alt="" >
+
+        <p id="description"> <u >Colombo,Sri Lanka</u><br>Colombo is one of largest cities in sri lanka which has a great history
+            its a well developed city with all the attractions matched proper to foreigners needs
+            there are beaches popular architecural structures and its the main trade hub in sri lanka , the most popular places here are
+            galleface beach and gangaramya.
+        </p></div>
+    <div class="thumbnails" id="thumbnails2">
+        <img id="4"  class="thumbnails" src="mumbai.jpeg" alt=""  onmouseenter="description_mumbai()" >
+        <img id="5"  class="thumbnails"  src="delhi.jpeg"  alt="" onmouseenter="description_delhi()"  >
+        <img id="6"  class="thumbnails"  src="bali.jpeg"  alt="" onmouseenter="description_bali()"  >
+
+       <a href="pageeditor.htm" class="button"><b> Editors Page</b></a>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <img src="logo.png" alt="">
+            <p>Explore the world with us - your adventure awaits!  </p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2023 Asia Travels. designed by <span>Rizmi Razeen</span></p>
+        </div>
+    </footer>
+<script src="thumbnailjs.js">
+</script>
+</body>
+</html>

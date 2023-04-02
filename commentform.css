@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+body{
+  background-color: #004d80;
+  font-family: Alkatra;
+}
+
+.main a.active{
+  color: #000;
+}
+
+form{
+  height: 1100px;
+  width: 900px;
+  margin: auto;
+}
+
+.name-div, .ratings-div, .gmail-div, .mobile-div, .reason-div, .suggestions-div, .task-div{
+  height: 150px;
+  width: 900px;
+  background-color: white;
+  margin: 15px;
+  border-radius: 8px;
+}
+
+.name{
+  padding-top: 20px;
+  padding-left: 25px;
+  padding-bottom: 25px;
+  font-size: 15px;
+}
+
+.input-div{
+  padding-top: 25px;
+  padding-left: 25px;
+  display: inline-block;
+}
+
+.input-div input{
+  border: 0;
+  outline: 0;
+  border-bottom: 1.5px solid #DCD7D7;
+  font-size: 15px;
+  width: 850px;
+}
+
+.Input-div{
+  padding-top: 25px;
+  padding-left: 25px;
+  display: inline-block;
+}
+
+.Input-div input{
+  border: 0;
+  outline: 0;
+  border-bottom: 1.5px solid #DCD7D7;
+  font-size: 15px;
+}
+
+select{
+   margin: 8px 0;
+   margin-left:25px;
+}
+
+.login_form button{
+  height: 36px;
+  width: 150px;
+  background-color: #006bb3;
+  font-size: 14px;
+  letter-spacing: .5px;
+  font-weight: 540;
+  border: none;
+  padding: 10px;
+  position: absolute;
+  margin-left: 370px;
+  color: white;
+}
+
+footer{
+    position: absolute;
+    background:#006bb3;
+    height: auto;
+    width: 100%;
+    padding-top: 0px;
+    color: black;
+    border-style: groove;
+    margin-top: 300px;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content img{
+    width: 150px;
+
+    margin: 0px;
+}
+.footer-content p{
+    max-width: 500px;
+    text-align: center;
+    margin: 10px auto;
+    font-size: 20px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: black;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: aqua;
+}
+
+.footer-bottom{
+    background:lightblue;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;}
+
+    .button{ background-color: white;
+      border: 1px solid #ccc;
+      color: black;
+      padding: 5px;
+      margin-left: 40px;
+      margin-bottom: 5px;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      font-size: 20px;
+      display: inline-block;
+      border-radius: 5px;
+      box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    }
+
+    .button:hover {
+      background: whitesmoke;
+      color: #174ea6;
+    }

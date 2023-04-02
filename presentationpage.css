@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Alkatra;
+  transition: 0.4s;
+
+}
+
+header{
+  height: 100vh;
+   background-image: url(images/cover.png);
+   background-size: cover;
+   background-position: center;
+   min-height: 100px;
+}
+
+.splash {
+  position: fixed;
+  top: 32%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+
+.splash h1{
+  color: #000;
+  font-size: 70px;
+
+}
+
+@keyframes fadeIn {
+  to{
+    opacity: 1;
+  }
+}
+
+.fade-in{
+  opacity: 0;
+  animation: fadeIn 4s ease-in forwards;
+}
+
+ul{
+  list-style-type: none;
+  margin-top: 20px;
+  margin-right: 60px;
+  min-height: 400px;
+  font-size: 27px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+ul li{
+  display: flex;
+  color: #000;
+}

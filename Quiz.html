@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="button.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="main">
+                <div class="logo">
+                    <img src="assets1/logo.png" alt="">
+                </div>
+                <div>
+                  <a href="index.html">Home</a>
+                  <a href="commentform.html">Comments</a>
+                  <a href="#">Shop</a>
+                  <a class="active" href="Quiz.html">Quiz</a>
+                  <a href="sitemap.htm">Site Map</a>
+                  <a href="aboutUs.html">About us</a>
+                  <a href="thumbnail.htm">Gallery</a>
+                </div>
+            </div>
+        </header>
+        <div class="header-text active">Welcome to Quiz</div>
+        <div class="start-button active">Start</div>
+        <div class="rules_box ">
+            <div class="rules_title">
+                <i class="fa-solid fa-clipboard-list rules_icon"></i>
+                <span>Rules</span>
+            </div>
+            <div class="rules_list">
+                <div class="rule">1. You will have only 15 seconds per each question.</div>
+                <div class="rule">2. You'll get marks on the basis of your correct answers.</div>
+                <div class="rule">3. You will have 10 questions.</div>
+                <div class="rule">4. Enjoy the quiz!.</div>
+            </div>
+            <div class="rules_buttons">
+                <button class="quit" >Exit</button>
+                <button class="continue"> Continue</button>
+            </div>
+        </div>
+        <div class="quiz_box">
+            <div class="quiz_header">
+                <div class="quiz_title">Quiz Application</div>
+                <div class="timer">
+                    <div class="text">Time Left:</div>
+                    <div class="number">15</div>
+                </div>
+            </div>
+            <div class="quiz_section">
+                <div class="question_text"></div>
+                <div class="option_list"></div>
+            </div>
+            <div class="quiz-footer">
+                <div class="total_que"></div>
+                <div class="next_btn"><button>Next Question</button></div>
+            </div>
+        </div>
+
+        <div class="result_box ">
+            <div class="crown_icon">
+                <i class="fa-solid fa-crown fa-beat-fade"></i>
+            </div>
+            <div class="success_text">
+                Successfully completed the quiz!
+            </div>
+            <div class="score_text">
+                <span>You got only <span id="count"></span> of 10</span>
+            </div>
+            <div class="buttons">
+                <div class="restart">
+                    <i class="fa-solid fa-rotate-right" onclick="window.location.reload()"></i>
+                </div>
+            </div>
+        </div>
+        <div class="editor"><a href="editor.html" target="_blank" >Editor </a></div>
+
+    </div>
+<script src="https://kit.fontawesome.com/cb49a8088f.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+<script src="ques.js"></script>
+<footer>
+    <div class="footer-content">
+        <img src="logo.png" alt="Your Logo">
+        <p>Explore the world with us - your adventure awaits!  </p>
+        <ul class="socials">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+        </ul>
+    </div>
+    <div class="footer-bottom">
+        <p>copyright &copy;2023 Asia Travels. designed by <span>Senuri Kaveesha</span></p>
+    </div>
+</footer>
+</body>
+</html>

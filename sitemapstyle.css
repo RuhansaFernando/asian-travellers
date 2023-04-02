@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Alkatra;
+}
+
+.main a.active{
+  color: #000;
+}
+
+html, body {
+    width: 100%;
+    min-height: 100%;
+}
+
+.logo img {
+    float: left;
+    width: 120px;
+    height: auto;
+  }
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+
+  }
+
+  .main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #006bb3;
+    color: white;
+    padding: 0 20px;
+    height: 70px;
+    z-index: 1;
+  }
+
+  .main a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 12px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-right: 20px;
+  }
+
+  .main a:hover {
+    border-bottom: 2px solid #fff;
+    transition: 0.4s;
+  }
+
+  .image-container {
+    position: relative;
+    overflow: hidden;
+    border-style: groove;
+    height: 300px;
+    margin-top: 70px;
+  }
+
+  .content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+.content {
+    padding: 0;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%,-50%);
+    font-size: 80px;
+    -webkit-text-stroke: 2px black;
+    color: transparent;
+    background-image: linear-gradient(black,black);
+    background-repeat: no-repeat;
+    background-position: -500px 0;
+    overflow: hidden;
+
+
+}
+
+.container {
+    text-align: center;
+    background-color: whitesmoke;
+    border-style: groove;
+}
+
+.svg{width: 100%;
+  height: 600px;}
+
+.svg_lines {
+    stroke: black;
+    stroke-width: 4px;
+}
+
+.svg_details {
+    font-size: 25;
+    text-anchor: middle;
+}
+
+.svg_details a circle {
+    fill: #4c6ef5;
+    stroke: black;
+}
+
+.svg_details a text {
+    transition: 0.3s;
+}
+
+.svg_details a:hover text {
+    fill: blue;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+g:hover polygon,
+.svg_details a:hover circle,.svg_details a:focus circle{
+    fill: hsla(24, 20%, 50%,.3);
+    stroke: black;
+    stroke-width: 2;
+}
+
+footer{
+    position: absolute;
+    background:#006bb3;
+    height: auto;
+    width: 100%;
+    padding-top: 0px;
+    color: black;
+    border-style: groove;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content img{
+    width: 150px;
+
+    margin: 0px;
+}
+.footer-content p{
+    max-width: 500px;
+    text-align: center;
+    margin: 10px auto;
+    font-size: 20px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: black;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: aqua;
+}
+
+.footer-bottom{
+    background:lightblue;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;}
+
+    .button{ background-color: white;
+      border: 1px solid #ccc;
+      color: black;
+      padding: 5px;
+      margin-left: 40px;
+      margin-bottom: 5px;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      font-size: 20px;
+      display: inline-block;
+      border-radius: 5px;
+      box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    }
+
+    .button:hover {
+      background: whitesmoke;
+      color: #174ea6;
+    }

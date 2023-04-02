@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Comment Form</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="Navbar.css">
+  <link rel="stylesheet" type="text/css" href="commentform.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="main">
+    <div class="logo">
+      <img src="logo.png" alt="">
+    </div>
+    <div>
+      <a href="index.html">Home</a>
+      <a class="active" href="commentform.html">Comments</a>
+      <a href="#">Shop</a>
+      <a href="Quiz.html">Quiz</a>
+      <a href="sitemap.htm">Site Map</a>
+      <a href="aboutUs.html">About us</a>
+      <a href="thumbnail.htm">Gallery</a>
+    </div>
+  </div>
+  <form class="login_form" action="thankyoupage.html" method="post" name="form" onsubmit="return validated()">
+    <div class="name-div">
+      <div class="name">Full Name</div>
+      <div class="input-div"><input type="text" name="answer" placeholder= "Your answer"></div>
+    </div>
+    <div class="gmail-div">
+      <div class="name">E-mail</div>
+      <div class="input-div"><input type="text" name="answer" placeholder= "Your email"></div>
+    </div>
+    <div class="mobile-div">
+      <div class="name">Mobile No.(optional)</div>
+      <div class="input-div"><input type="text" name="answer" placeholder= "Your answer"></div>
+    </div>
+    <div class="ratings-div">
+      <div class="name">How satisfied where you with our website today? Choose from 0 to 10, where 0 is extremely dis-satisfied and 10 is extremely satisfied.</div>
+      <div class="Input-div"><label for="choice-0">0</label></div>
+      <div class="Input-div"><input id= "choice-0" name= "choice" type="radio" value="0"></div>
+      <div class="Input-div"><label for="choice-1">1</label></div>
+      <div class="Input-div"><input id= "choice-1" name= "choice" type="radio" value="1"></div>
+      <div class="Input-div"><label for="choice-2">2</label></div>
+      <div class="Input-div"><input id= "choice-2" name= "choice" type="radio" value="2"></div>
+      <div class="Input-div"><label for="choice-3">3</label></div>
+      <div class="Input-div"><input id= "choice-3" name= "choice" type="radio" value="3"></div>
+      <div class="Input-div"><label for="choice-4">4</label></div>
+      <div class="Input-div"><input id= "choice-4" name= "choice" type="radio" value="4"></div>
+      <div class="Input-div"><label for="choice-5">5</label></div>
+      <div class="Input-div"><input id= "choice-5" name= "choice" type="radio" value="5"></div>
+      <div class="Input-div"><label for="choice-6">6</label></div>
+      <div class="Input-div"><input id= "choice-6" name= "choice" type="radio" value="6"></div>
+      <div class="Input-div"><label for="choice-7">7</label></div>
+      <div class="Input-div"><input id= "choice-7" name= "choice" type="radio" value="7"></div>
+      <div class="Input-div"><label for="choice-8">8</label></div>
+      <div class="Input-div"><input id= "choice-8" name= "choice" type="radio" value="8"></div>
+      <div class="Input-div"><label for="choice-9">9</label></div>
+      <div class="Input-div"><input id= "choice-9" name= "choice" type="radio" value="9"></div>
+      <div class="Input-div"><label for="choice-10">10</label></div>
+      <div class="Input-div"><input id= "choice-10" name= "choice" type="radio" value="10"></div>
+    </div>
+    <div class="reason-div">
+      <div class="name">Please could you tell us your reasons for giving this rating?</div>
+      <div class="input-div"><input type="text" name="answer" placeholder= "Your answer"></div>
+    </div>
+    <div class="task-div">
+      <div class="name">How did you want to complete this task today?(optional) </div>
+      <select id="suggestions">
+        <option value="suggestions">--Please Select--</option>
+        <option value="phone">Phone</option>
+        <option value="website">Website</option>
+        <option value="webchat">Webchat</option>
+        <option value="socialmedia">Social media</option>
+        <option value="email">Email</option>
+      </select>
+    </div>
+    <div class="task-div">
+      <div class="name">If you had to complete this task again, how would you prefer to do it?(optional) </div>
+      <select id="suggestions1">
+        <option value="suggestions1">--Please Select--</option>
+        <option value="phone">Phone</option>
+        <option value="website">Website</option>
+        <option value="webchat">Webchat</option>
+        <option value="socialmedia">Social media</option>
+        <option value="email">Email</option>
+      </select>
+    </div>
+    <div class="suggestions-div">
+      <div class="name">Do you have any suggestions for improvements?</div>
+      <div class="input-div"><input type="text" name="answer" placeholder= "Your answer"></div>
+    </div>
+    <button type="submit" >Submit</button>
+  </form>
+  <footer>
+        <div class="footer-content">
+            <img src="logo.png" alt="Your Logo">
+            <p>Explore the world with us - your adventure awaits!</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2023 Asian Travellers. Edited by <span><a href="PageEditor.html">Ruhansa Fernando</a></span></p>
+        </div>
+    </footer>
+</body>
+</html>
